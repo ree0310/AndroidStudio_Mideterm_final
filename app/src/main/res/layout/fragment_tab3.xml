@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.midtermproject3.Tab3Fragment"
+    android:background="#FFA0C2">
+
+
+    <TextView
+        android:id="@+id/textTab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Toast한 Activity로 넘어가려면 밑에 있는 버튼을 클릭해주세요."
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:background="#FFBCD7"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnTEST3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="184dp"
+        android:onClick="goTo4"
+        android:text="Toast" />
+
+
+</RelativeLayout>

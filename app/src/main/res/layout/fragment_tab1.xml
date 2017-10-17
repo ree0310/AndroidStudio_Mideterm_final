@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.midtermproject3.Tab1Fragment"
+    android:background="#7FADFF">
+
+
+    <TextView
+        android:id="@+id/textTab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="자기소개하는 Activity로 넘어가려면 밑에 있는 버튼을 클릭해주세요."
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:background="#A3C6FF"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnTEST1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp"
+        android:onClick="goTo2"
+        android:text="Introduce" />
+
+
+</RelativeLayout>
